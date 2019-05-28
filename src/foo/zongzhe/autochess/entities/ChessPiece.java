@@ -21,7 +21,7 @@ public class ChessPiece {
 	public static final String OGRE = "基拉";
 	public static final String ORC = "洞洞族";
 	public static final String NAGA = "海族";
-	public static final String TROLL = "巨魔";
+	public static final String TROLL = "冰川族"; // 好好的叫巨魔族不好么？！
 	public static final String UNDEAD = "不眠";
 	public static final String EMPTY = "";
 
