@@ -3,6 +3,7 @@ package foo.zongzhe.autochess.utils;
 import java.util.ArrayList;
 import java.util.List;
 
+import foo.zongzhe.autochess.entities.Buff;
 import foo.zongzhe.autochess.entities.ChessPiece;
 
 public class ChessPieceUtil {
@@ -11,6 +12,14 @@ public class ChessPieceUtil {
 		ChessPieceUtil cpu = new ChessPieceUtil();
 		List<ChessPiece> chessPieceList = cpu.initialAllChessPieces();
 		System.out.println(chessPieceList.get(0).chessClass);
+
+	}
+
+	public void printChessList(List<ChessPiece> chessList) {
+		for (ChessPiece chess : chessList) {
+			System.out.print(chess.name + " ");
+		}
+		System.out.println();
 
 	}
 

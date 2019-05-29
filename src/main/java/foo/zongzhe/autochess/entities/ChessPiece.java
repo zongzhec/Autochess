@@ -31,7 +31,7 @@ public class ChessPiece {
 	public static final String DRUID = "德鲁伊";
 	public static final String KNIGHT = "骑士";
 	public static final String HUNTER = "猎人";
-	public static final String PRIEST = "祭司";
+//	public static final String PRIEST = "祭司";
 	public static final String MAGE = "法师";
 	public static final String MECH = "工匠";
 	public static final String SHAMAN = "萨满";
