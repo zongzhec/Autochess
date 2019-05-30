@@ -53,7 +53,7 @@ public class CombinationAnalysis {
 										// System.out.println(String.format("Checking buff from %s, %s, and %s", chess1.name, chess2.name, chess3.name));
 										List<Buff> buffList = bu.getBuffCombination(chessPiecesToCheck);
 										// System.out.println("buffList.size: " + buffList.size());
-										if (buffList.size() >= 8) {
+										if (buffList.size() >= 11) {
 											cpu.printChessList(chessPiecesToCheck);
 											bu.printBuffList(buffList);
 										}
